@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "carName": "Toyota Corolla",
+      "year": 2022,
+      "price": 25000,
+      "image": "https://i.ibb.co/vHXnVFv/Toyota-Corolla-1.jpg"
+    },
+    {
+      "id": 2,
+      "carName": "Honda Civic",
+      "year": 2022,
+      "price": 26000,
+      "image": "https://i.ibb.co/JKH2m7D/Honda-Civic-1.jpg"
+    },
+    {
+      "id": 3,
+      "carName": "Ford Mustang",
+      "year": 2022,
+      "price": 45000,
+      "image": "https://i.ibb.co/1vQm2zJ/Ford-Mustang-1.jpg"
+    },
+    {
+      "id": 4,
+      "carName": "Chevrolet Camaro",
+      "year": 2022,
+      "price": 48000,
+      "image": "https://i.ibb.co/9rrh0kH/Chevrolet-Camaro-1.jpg"
+    },
+    {
+      "id": 5,
+      "carName": "BMW X5",
+      "year": 2022,
+      "price": 60000,
+      "image": "https://i.ibb.co/mcKb9jD/BMW-X5-1.jpg"
+    },
+    {
+        "id": 6,
+        "carName": "BMW X5",
+        "year": 2022,
+        "price": 60000,
+        "image": "https://i.ibb.co/XkMdzRD/BMW-X6-1.jpg"
+      }
+  ]  
