@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import "./Searchbar.css";
+import './SearchBar.css'
 
 const Searchbar = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
 
   // Handle input changes
   const handleInputChange = (event) => {

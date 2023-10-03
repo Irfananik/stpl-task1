@@ -1,10 +1,10 @@
 import React from 'react';
-import Searchbar from '../../assets/Searchbar/Searchbar';
+import Searchbar from './SearchBar';
 
 const Home = () => {
     return (
         <div>
-            <Searchbar/>
+           <Searchbar/>
         </div>
     );
 };
