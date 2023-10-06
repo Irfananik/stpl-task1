@@ -2,7 +2,7 @@
     {
       "id": 1,
       "carName": "Toyota Corolla",
-      "year": 2022,
+      "year": 2021,
       "price": 25000,
       "image": "https://i.ibb.co/vHXnVFv/Toyota-Corolla-1.jpg"
     },
@@ -23,7 +23,7 @@
     {
       "id": 4,
       "carName": "Chevrolet Camaro",
-      "year": 2022,
+      "year": 2023,
       "price": 48000,
       "image": "https://i.ibb.co/9rrh0kH/Chevrolet-Camaro-1.jpg"
     },
@@ -36,8 +36,8 @@
     },
     {
         "id": 6,
-        "carName": "BMW X5",
-        "year": 2022,
+        "carName": "BMW X6",
+        "year": 2023,
         "price": 60000,
         "image": "https://i.ibb.co/XkMdzRD/BMW-X6-1.jpg"
       }
