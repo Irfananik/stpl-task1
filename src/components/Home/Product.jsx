@@ -3,6 +3,8 @@ import "./product.css";
 
 const Product = (props) => {
   const { image, carName, id, year, price } = props.product;
+  const handleAddToCart = props.handleAddToCart
+  //console.log(props)
 
   return (
     <div className="mt-6 rounded overflow-hidden shadow-lg mx-auto">
@@ -23,8 +25,9 @@ const Product = (props) => {
       <div className="border border-gray-200"></div>
       <div className="px-6 py-4">
         <span className="text-xl">${price}</span>
-        <button className="ml-4 bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          Rent now
+        <button onClick={() => handleAddToCart(props.product)} className="ml-4 bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Add to Cart
+          <i className="fa-solid fa-cart-shopping ms-2"></i>
         </button>
       </div>
     </div>
