@@ -20,7 +20,7 @@ const Products = () => {
   return (
     <div>
       {/* product cart section */}
-      <div className="shadow-lg w-1/2 flex justify-center items-center mx-auto my-6 rounded-lg">
+      <div className="shadow-lg w-1/2 flex justify-center items-center mx-auto my-6 rounded-lg sticky top-0">
         <Cart cart={cart}></Cart>
       </div>
       {/* all products  */}
