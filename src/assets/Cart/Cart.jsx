@@ -1,5 +1,6 @@
 import React from "react";
 import "./Cart.css";
+import Searchbar from "../../components/Home/SearchBar";
 
 const Cart = ({ cart }) => {
   //const {cart} = props;

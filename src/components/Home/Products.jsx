@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Product from "./Product";
 import Cart from "../../assets/Cart/Cart";
+import { adToCartToLocalStorage } from "../../assets/utilities/lstorage";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -9,6 +10,7 @@ const Products = () => {
   const handleAddToCart = (product) => {
     const newCart = [...cart, product];
     setCart(newCart);
+    adToCartToLocalStorage(product.id);
   };
 
   useEffect(() => {

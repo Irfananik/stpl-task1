@@ -38,6 +38,9 @@ const Searchbar = () => {
             <li className="md:ms-6 cursor-pointer">All brand</li>
         </ul>
       </div>
+      <div className="md:flex md:items-center md:justify-center ml-auto">
+        <i className="fa-regular fa-credit-card px-2"></i>
+      </div>
     </div>
   );
 };
